@@ -1,0 +1,7 @@
+{
+  "profile" : [
+    {"userID" : 1 , "name" : "Pralok Chhajed","degrees" : "MBBS, MD", "specialities" : "nothing" , "address" : "God Knows", "contact" : "why ?"}
+  ]
+}
+
+//'name', 'degrees', 'specialities','contact'

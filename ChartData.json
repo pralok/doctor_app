@@ -1,0 +1,124 @@
+{
+  "chartdata": [
+    {
+      "date": "2010",
+      "type": "type1",
+      "value": 140
+    },
+    {
+      "date": "2011",
+      "type": "type2",
+      "value": 141
+    },
+    {
+      "date": "2012",
+      "type": "type3",
+      "value": 145
+    },
+    {
+      "date": "2013",
+      "type": "type4",
+      "value": 135
+    },
+    {
+      "date": "2014",
+      "type": "type5",
+      "value": 120
+    },
+    {
+      "date": "2015",
+      "type": "type6",
+      "value": 123
+    },
+    {
+      "date": "2010",
+      "type": "type2",
+      "value": 135
+    },
+    {
+      "date": "2011",
+      "type": "type1",
+      "value": 137
+    },
+    {
+      "date": "2012",
+      "type": "type5",
+      "value": 140
+    },
+    {
+      "date": "2013",
+      "type": "type6",
+      "value": 141
+    },
+    {
+      "date": "2014",
+      "type": "type3",
+      "value": 138
+    },
+    {
+      "date": "2015",
+      "type": "type4",
+      "value": 129
+    },
+    {
+      "date": "2012",
+      "type": "type1",
+      "value": 133
+    },
+    {
+      "date": "2011",
+      "type": "type2",
+      "value": 136
+    },
+    {
+      "date": "2012",
+      "type": "type3",
+      "value": 134
+    },
+    {
+      "date": "2013",
+      "type": "type4",
+      "value": 140
+    },
+    {
+      "date": "2014",
+      "type": "type5",
+      "value": 145
+    },
+    {
+      "date": "2015",
+      "type": "type6",
+      "value": 146
+    },
+    {
+      "date": "2010",
+      "type": "type2",
+      "value": 143
+    },
+    {
+      "date": "2013",
+      "type": "type1",
+      "value": 138
+    },
+    {
+      "date": "2012",
+      "type": "type5",
+      "value": 140
+    },
+    {
+      "date": "2013",
+      "type": "type6",
+      "value": 145
+    },
+    {
+      "date": "2014",
+      "type": "type3",
+      "value": 150
+    },
+    {
+      "date": "2015",
+      "type": "type4",
+      "value": 146
+    }
+  ]
+}

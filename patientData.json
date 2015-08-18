@@ -1,0 +1,39 @@
+{
+  "data" : [
+    {"patientId" : 1 ,
+     "pName" : "apatient 12",
+     "img" : "user.jpeg",
+     "pAge" : 12,
+     "Contact" : "+91 94245-55324",
+     "Address" : "123, abc building, apt # 1, xyz road, City, State "
+    },
+    {"patientId" : 2 ,
+     "pName" : "bpatient 1",
+     "img" : "user.jpeg",
+     "pAge" : 32,
+     "Contact" : "+91 94245-55324",
+     "Address" : "123, abc building, apt # 1, xyz road, City, State "
+    },
+    {"patientId" : 3 ,
+     "pName" : "aapatient 31",
+     "img" : "user.jpeg",
+     "pAge" : 17,
+     "Contact" : "+91 94245-55324",
+     "Address" : "123, abc building, apt # 1, xyz road, City, State "
+    },
+    {"patientId" : 4 ,
+     "pName" : "dpatient 123",
+     "img" : "user.jpeg",
+     "pAge" : 11,
+     "Contact" : "+91 94245-55324",
+     "Address" : "123, abc building, apt # 1, xyz road, City, State "
+    },
+    {"patientId" : 5 ,
+     "pName" : "patient w1",
+     "img" : "user.jpeg",
+     "pAge" : 23,
+     "Contact" : "+91 94245-55324",
+     "Address" : "123, abc building, apt # 1, xyz road, City, State "
+    }
+  ]
+}
