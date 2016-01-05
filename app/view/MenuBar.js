@@ -10,6 +10,11 @@ Ext.define('WireFrameOne.view.MenuBar',{
                 text: 'My Profile',
                 iconCls: 'user'
             },{
+              xtype : 'button',
+              action : 'appointments',
+              text: 'Appoinments',
+              iconCls: 'organize'
+            },{
                 xtype : 'button',
                 action : 'patients',
                 text: 'My Patients',
@@ -18,8 +23,15 @@ Ext.define('WireFrameOne.view.MenuBar',{
             {
                 xtype : 'button',
                 action : 'homeview',
-                text: 'News',
+                text: 'Resources',
                 iconCls: 'star'
+            },
+            {
+                xtype : 'button',
+                action : 'messages',
+                text: 'Messages',
+//                badge : '3',
+                iconCls: 'compose'
             },
             {
                 xtype : 'button',

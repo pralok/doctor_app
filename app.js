@@ -1,7 +1,8 @@
 Ext.application({
     name: 'WireFrameOne',
 
-    controllers : ['Login','Main','News','MyProfile','MyPatients'],
+    controllers : ['RefId','Login','Main','News','MyProfile',
+    'MyPatients','Messages'],
 
     launch: function() {
         // Destroy the #appLoadingIndicator element

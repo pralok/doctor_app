@@ -64,6 +64,167 @@
             width : 100%;
             height : 250px;
         }
+
+        .talk-bubble {
+   		  margin-left : 18%;
+          display: inline-block;
+          position: relative;
+         	width: 80%;
+         	height: auto;
+         	background-color: lightblue;
+         }
+
+         .tri-right.left-in:after{
+	          content: ' ';
+	          position: absolute;
+	          width: 0;
+	          height: 0;
+			  left: auto;
+			  transform: rotate(180deg);
+	          right: -20px;
+              top: auto;
+	          bottom: 38px;
+	          border: 12px solid;
+	          border-color: lightblue lightblue transparent transparent;
+          }
+
+          .talk-bubbleM {
+         	margin: 2%;
+           display: inline-block;
+           position: relative;
+         	width: 80%;
+         	height: auto;
+         	background-color: lightblue;
+         }
+
+         .tri-rightM.left-inM:after{
+	          content: ' ';
+	          position: absolute;
+	          width: 0;
+	          height: 0;
+            left: -20px;
+	          right: auto;
+            top: 38px;
+	          bottom: auto;
+	          border: 12px solid;
+	          border-color: lightblue lightblue transparent transparent;
+          }
+
+
+          .talktext{
+            padding: 1em;
+	          text-align: left;
+            line-height: 1.5em;
+          }
+          .talktext p{
+            /* remove webkit p margins */
+            -webkit-margin-before: 0em;
+            -webkit-margin-after: 0em;
+          }
+
+
+         .notifications .message{
+           padding : 15px;
+           background-color: lightblue;
+           border-bottom-right-radius: 15%;
+           border-top-right-radius: 15%;
+           border-bottom-left-radius: 15%;
+         }
+		 .username .x-form-text, .username .x-form-field {
+             background: url(48px-User_icon_2.svg.png) no-repeat left;
+             background-size: contain;
+             padding-left: 25px;
+         }
+         .username .x-form-field { /* Adding more padding for Sencha Touch only */
+             padding-left: 50px;
+         }
+         .password .x-form-text, .password .x-form-field {
+             background: url(key.png) no-repeat left;
+             background-size: contain;
+             padding-left: 25px;
+         }
+         .password .x-form-field { /* Adding more padding for Sencha Touch only */
+             padding-left: 50px;
+         }
+         .title{
+           color:#ffffff;
+           text-align: center;
+           font-size:16px;
+           margin:10%;
+         }
+         .calender{
+           background-color: #730099;
+           font-color:#ffffff;
+         }
+         .x-innerhtml{
+           font-size: 16px;
+           font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+         }
+         @media (max-width: @screen-xs) {
+           body{font-size: 10px;}
+         }
+
+         @media (max-width: @screen-sm) {
+           body{font-size: 14px;}
+         }
+         h5{
+           font-size: 1.4em;
+         }
+         .menuI{
+           height:auto;
+           width:25%;
+         }
+		 .mytext{
+			height : 80px;
+		 }
+     .record{
+       height: 25px;
+       width: 25px;
+       margin-top: -20px;
+       margin-left: 80%;
+     }
+     .record.true{
+       background-image: url("flag.jpg");
+       background-repeat: round;
+       transform: rotate(30deg);
+     }
+     .x-chart-watermark{
+       display:none;
+     }
+
+     /*profile css*/
+     pinfo{
+           margin-top: 2%;
+           margin-left: 1%;
+           margin-right:1%;
+           height: 30%;
+           width:100%;
+           font-size: 14px;
+           font-family: sans-serif;
+           text-align:left;
+           border-top: 1px solid grey;
+         }
+         .x-chart-watermark{
+           display: none;
+         }
+         th,td{
+           width:50%;
+           height: 50px;
+         }
+         .pic{
+            width: 100px;
+	          height: 100px;
+	          border-radius: 110px;
+	          -webkit-border-radius: 150px;
+	          -moz-border-radius: 150px;
+         }
+         .name{
+           text-align: center;
+           font-size: 14px;
+           font-family: sans-serif;
+           margin-top: 10%;
+         }
+         tr:nth-child(even) {background-color: #3399ff}
     </style>
     <!-- The line below must be kept intact for Sencha Command to build your application -->
     <script id="microloader" type="text/javascript" src=".sencha/app/microloader/development.js"></script>

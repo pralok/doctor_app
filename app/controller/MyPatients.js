@@ -16,7 +16,6 @@ Ext.define('WireFrameOne.controller.MyPatients',{
             patientlist : {
                 itemtap : 'onPatientTap'
             },
-
             patientInfo : {
                 tap : 'onPatientInfo'
             },
@@ -28,9 +27,8 @@ Ext.define('WireFrameOne.controller.MyPatients',{
             }
         }
     },
-    onPatientTap : function( btn, index, target, record){
+    onPatientTap : function(btn, index, target, record){
         Ext.Viewport.hideMenu('left');
-
 
         var details = Ext.create('WireFrameOne.view.patients.PatientDetails');
         Ext.Viewport.animateActiveItem(details,{
@@ -66,7 +64,7 @@ Ext.define('WireFrameOne.controller.MyPatients',{
         InfoView.down('textfield[label="Contact"]').setValue(Contact);
 
         //change view
-        Ext.Viewport.animateActiveItem(InfoView, {
+        Ext.Viewport.animateActiveItem(InfoView,{
                 direction: 'up',
                 type: 'slide'
             }

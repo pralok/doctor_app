@@ -1,0 +1,15 @@
+{
+  "success" : true,
+  "data" : [
+    {
+      "date" : "01/01/2016",
+      "time" : "08:30 AM",
+      "message" : "Wish you all a happy new year ! Hope you have a great and healthy year ahead"
+    },
+    {
+      "date" : "14/01/2016",
+      "time" : "07:04 PM",
+      "message" : "Please avoid eating sweets today."
+    }
+  ]
+}

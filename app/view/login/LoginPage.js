@@ -8,29 +8,49 @@ Ext.define('WireFrameOne.view.login.LoginPage',{
         items : [
             {
                 xtype : 'fieldset',
-                title : 'Welcome to our App<hr />',
+                title : 'Welcome to Patient Managment App<hr />',
                 items : [
                     {
                         xtype : 'textfield',
-                        label : 'username',
+						cls : 'username',
+						placeHolder : 'username',
+                        //label : 'username',
                         name : 'username'
                     },{
                         xtype : 'passwordfield',
-                        label : 'password',
+                        //label : 'password',
+						placeHolder : 'password',
+						cls : 'password',
                         name : 'password'
                     }]
-            },{
+            },
+			{
+                layout: {
+                  type: 'hbox'
+                },
+                items: [{
+                  xtype: 'spacer',
+                  width : 100
+                },
+				{
                 xtype : 'button',
                 ui : 'confirm',
                 text : 'LogIn',
-                action : 'Login'
+                action : 'Login',
+				flex : 1
             },
-            {
+			{
+                  xtype: 'spacer',
+                  width : 10
+                }]
+            },
+/*            {
                 xtype : 'button',
                 text : 'forgot my password !',
                 styleHtml : true,
                 style : 'font-size : 0.6em; text-decoration : underline;color : blue; border : 0px; width : 50%; margin-left : 25%; margin-right : 25%; margin-top : 20px; '
-            },{
+            },
+*/            {
                 xtype : 'panel',
                 itemId : 'loginError',
                 html : 'Incorrect username and password',

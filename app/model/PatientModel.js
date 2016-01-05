@@ -1,7 +1,9 @@
 Ext.define('WireFrameOne.model.PatientModel',{
     extend : 'Ext.data.Model',
     config : {
-        fields : ['patientId','img','pName','pAge','Address','Contact'],
+        fields : ['patientId','img','pName','pAge','Address','Contact','flag']
+
+        /*
         proxy : {
             url : 'patientData.json',
             type : 'ajax',
@@ -9,8 +11,8 @@ Ext.define('WireFrameOne.model.PatientModel',{
                 type : 'json',
                 rootProperty : 'data'
             }
-
         }
+        */
     },
     initialize : function(){
         console.log('loading store');

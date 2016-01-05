@@ -11,7 +11,7 @@ Ext.define('WireFrameOne.view.patients.PatientList',{
             xtype : 'list',
             itemId : 'Patients',
             height : '100%',
-            itemTpl : '{pName}',//'<img src="{img}">{pName}',
+            itemTpl : '{pName} <div class="record {flag}"></div>',
             store : 'PatientStore',
             grouped : true,
             indexBar : true
